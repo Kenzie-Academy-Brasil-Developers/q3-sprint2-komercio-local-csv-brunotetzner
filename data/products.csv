@@ -1,9 +1,9 @@
 id,name,price
-1,sabonete,5.99
+1,sabonete em barra,4.99
 2,perfume,39.9
-3,tapete,10.3
+3,tapete persa,200
 4,tunica,19.29
-5,chuveiro,119.19
+5,tapete Persa,200
 6,arroz,30.1
 7,oleo de cozinha,11.15
 8,carne moida,39.9
@@ -16,9 +16,7 @@ id,name,price
 15,sal,5.99
 16,pipoca,3.14
 17,sabonete,5.99
-18,miojo,2.39
 19,alface,3.99
-20,tomate,9.99
 21,macarrao,6.4
 22,mesa,115.99
 23,cadeira gamer,445.99
@@ -29,3 +27,10 @@ id,name,price
 28,ferro de passar,55.8
 29,coberta,55.99
 30,sofa,600.15
+31,batata,200000
+32,batata,200000
+33,batata,200000
+34,,200000
+35,,
+36,cadeira de praia,100
+37,guarda sol,100
