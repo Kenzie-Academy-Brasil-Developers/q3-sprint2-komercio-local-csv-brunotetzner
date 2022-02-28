@@ -18,7 +18,10 @@ def func_list_products(page, number_of_products):
 
         return {"data":list_of_products}
      
-    except:
+    except IndexError:
+        return {"data": reader[0:3]}
+    
+    except TypeError:
         return {"data": reader[0:3]}
 
 
