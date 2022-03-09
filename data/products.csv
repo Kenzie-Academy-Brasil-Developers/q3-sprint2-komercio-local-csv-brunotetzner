@@ -9,13 +9,9 @@ id,name,price
 8,carne moida,39.9
 9,bola,25.99
 10,cantil,55.99
-11,copo,5.99
-12,panela,25.99
 13,prato,10.99
 14,açucar,7.99
 15,sal,5.99
-16,pipoca,3.14
-17,sabonete,5.99
 19,alface,3.99
 21,macarrao,6.4
 22,mesa,115.99
@@ -33,4 +29,8 @@ id,name,price
 34,,200000
 35,,
 36,cadeira de praia,100
-37,guarda sol,100
+37,guarda sol vermelho,100
+38,cadeira de praia,100
+39,cadeira de praia,100
+40,cadeira de praia,100
+41,cadeira de praia,100

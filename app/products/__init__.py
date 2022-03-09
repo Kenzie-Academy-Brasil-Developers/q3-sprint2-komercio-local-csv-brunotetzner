@@ -46,7 +46,7 @@ def func_create_product(name, price):
     read = list(csv.DictReader(csv_read))
     csv_read.close()
 
-    new_product = {"name": name, "price":price, 'id': int(read[len(read)-1]['id'])+1}
+    new_product = {"name": name, "price":price, 'id': str(int(read[len(read)-1]['id'])+1)}
     
     field_names = ["id", "name","price"]
     open_csv = open("./data/products.csv", "a+")

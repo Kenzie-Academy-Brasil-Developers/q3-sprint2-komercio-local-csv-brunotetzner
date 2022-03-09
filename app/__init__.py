@@ -1,6 +1,5 @@
 from flask import Flask, request
 from .products import func_create_product, func_edit_product, func_delete_product,func_get_one_product,func_list_products
-import csv
 app = Flask(__name__)
 
 @app.get('/products')
@@ -9,7 +8,7 @@ def list_products():
     number_of_products = request.args.get("per_page")                  
     return func_list_products(page, number_of_products)
     
-@app.get('/products/<int:id>')
+@app.get('/products/<id>')
 def get_one_product(id):
     id=str(id)
     return func_get_one_product(id)
@@ -23,7 +22,7 @@ def create_product():
 
     return func_create_product(name, price)
 
-@app.patch("/products/<int:id>")
+@app.patch("/products/<id>")
 def change_product(id):
     data = request.get_json()
     name = data.get("name")
@@ -35,7 +34,7 @@ def change_product(id):
     
 
 
-@app.delete("/products/<int:id>")
+@app.delete("/products/<id>")
 def delete_product(id):
      return func_delete_product(id)
 
